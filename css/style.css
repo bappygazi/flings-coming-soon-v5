@@ -166,14 +166,14 @@ a:hover {
 
 .animation-content .strawberry-top {
     top: -20%;
-    animation: bounce 2.3s ease infinite;
+    animation: bounce 2.8s ease infinite;
 }
 
 .animation-content .strawberry-bottom {
     top: 17%;
     right: -15%;
     z-index: 0;
-    animation: bounce 2.2s ease infinite;
+    animation: bounce 2.7s ease infinite;
 }
 
 .animation-content .packag img {
@@ -184,7 +184,7 @@ a:hover {
     right: -5%;
     top: -65px;
     z-index: 1;
-    animation: bounce 2.5s ease infinite;
+    animation: bounce 2.6s ease infinite;
 }
 
 @keyframes bounce {
