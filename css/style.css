@@ -1,0 +1,594 @@
+/*common part css*/
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@font-face {
+    src: url(../webfonts/Garnett-Black.ttf);
+    font-family: Garnett-Black;
+}
+
+@font-face {
+    src: url(../webfonts/Agrandir\ Text\ Bold\ 700.woff);
+    font-family: Agrandir-Bold;
+}
+
+@font-face {
+    src: url(../webfonts/Quick\ Marker.ttf);
+    font-family: Quick-Marker;
+}
+
+/* main content part css */
+#coming-soon {
+    height: 100vh;
+    background-color: #ff702a;
+}
+
+.navbar-brand {
+    width: 799px;
+}
+
+.QRcode-vibe {
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    bottom: -20%;
+}
+
+.QRcode-vibe .QRcode img {
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.QRcode-vibe .vibe {
+    font-size: 24px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: Quick-Marker;
+}
+
+.vibe a {
+    color: #fff6e8;
+
+}
+
+.coming-soon-content {
+    color: #fff6e8;
+}
+
+.coming-soon-content .coming-soon-text h3 {
+    font-size: 100px;
+    line-height: 100px;
+    font-family: Garnett-Black;
+}
+
+.coming-soon-content .coming-soon-text h4 {
+    font-size: 40px;
+    font-family: Quick-Marker;
+}
+
+.coming-soon-content .coming-soon-text p {
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: Agrandir-Bold;
+}
+
+.email-phone-box {
+    padding-bottom: 80px
+}
+
+.email-phone-box .form-control {
+    height: 65px;
+    font-size: 24px;
+    border-radius: 8px;
+    color: #ff702a !important;
+    background-color: #fff6e8;
+    font-family: Agrandir-Bold;
+
+}
+
+.email-phone-box .form-control::placeholder {
+    color: #ff702a;
+}
+
+.email-phone-box .btn {
+    height: 65px;
+    width: 250px;
+    font-size: 25px;
+    border-radius: 8px;
+    color: #fff6e8;
+    text-transform: uppercase;
+    background-color: #0b60b8;
+    font-family: Quick-Marker;
+}
+
+
+.footer-text {
+    left: 50%;
+    z-index: 2;
+    bottom: 5px;
+    transform: translateX(-50%);
+}
+
+.social-media a {
+    color: #fff6e8;
+}
+
+.social-media a i {
+    font-size: 27px;
+}
+
+.social-media a span {
+    font-size: 20px;
+    font-family: Agrandir-Bold;
+}
+
+.footer-text p {
+    font-size: 18px;
+    color: #ff702a;
+    font-family: Agrandir-Bold;
+}
+
+.wave-shape {
+    bottom: 0;
+    width: 100%;
+}
+
+/* animation part css */
+.animation-content .strawberry-size {
+    width: 145px;
+}
+
+.animation-content .strawberry-top {
+    top: -20%;
+    animation: bounce 2.3s ease infinite;
+}
+
+.animation-content .strawberry-bottom {
+    top: 17%;
+    right: -15%;
+    z-index: 0;
+    animation: bounce 2.2s ease infinite;
+}
+
+.animation-content .packag img {
+    max-width: 165px;
+}
+
+.animation-content .packag {
+    right: -5%;
+    top: -65px;
+    z-index: 1;
+    animation: bounce 2.5s ease infinite;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateY(-5%);
+    }
+}
+
+
+
+
+/* Apply styles starting from medium devices and up to extra large devices */
+
+/*Medium devices (maobile  768px )*/
+@media (max-width: 576px) {
+    #coming-soon {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .navbar-brand img {
+        width: 113px;
+    }
+
+    .coming-soon-content .coming-soon-text h3 {
+        font-size: 75px;
+        line-height: 75px;
+    }
+
+    .coming-soon-content .coming-soon-text h4 {
+        font-size: 24px;
+    }
+
+    .coming-soon-content .coming-soon-text p {
+        font-size: 15px;
+    }
+
+    .email-phone-box .form-control {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .email-phone-box {
+        padding-bottom: 0px
+    }
+
+    .email-phone-box .btn {
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    .social-media a i {
+        font-size: 35px;
+    }
+
+    .social-media a span {
+        font-size: 18px
+    }
+
+    .vibe-tap {
+        right: 0px;
+        width: 90px;
+        bottom: 15px;
+        font-size: 16px;
+        line-height: 1;
+        font-family: Quick-Marker;
+    }
+
+    .vibe-tap .spotify-icon {
+        font-size: 30px;
+    }
+
+    .vibe-tap img {
+        transform: rotate(25deg);
+    }
+
+    .footer-text {
+        bottom: 18px;
+    }
+
+    .footer-text p {
+        font-size: 9px;
+    }
+
+    .wave-shape {
+        width: auto;
+        left: -263%;
+        bottom: -60px;
+    }
+
+
+    .animation-content .strawberry-size {
+        width: 80px;
+    }
+
+    .animation-content .strawberry-top {
+        left: -105%;
+        top: 4%;
+    }
+
+    .animation-content .strawberry-bottom {
+        top: 21%;
+        right: 0%;
+    }
+
+    .animation-content .packag img {
+        max-width: 90px;
+    }
+
+    .animation-content .packag {
+        right: 24px;
+        top: -38px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #coming-soon {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .navbar-brand img {
+        width: 113px;
+    }
+
+    .coming-soon-content .coming-soon-text h3 {
+        font-size: 75px;
+        line-height: 75px;
+    }
+
+    .coming-soon-content .coming-soon-text h4 {
+        font-size: 24px;
+    }
+
+    .coming-soon-content .coming-soon-text p {
+        font-size: 16px;
+    }
+
+    .email-phone-box {
+        padding-bottom: 0px
+    }
+
+    .email-phone-box .form-control {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .email-phone-box .btn {
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    .social-media a i {
+        font-size: 35px;
+    }
+
+    .social-media a span {
+        font-size: 18px
+    }
+
+    .vibe-tap {
+        right: 0px;
+        width: 90px;
+        bottom: 18px;
+        font-size: 16px;
+        line-height: 1;
+        font-family: Quick-Marker;
+    }
+
+    .vibe-tap .spotify-icon {
+        font-size: 30px;
+    }
+
+    .vibe-tap img {
+        transform: rotate(25deg);
+    }
+
+    .footer-text {
+        bottom: 18px;
+    }
+
+    .footer-text p {
+        font-size: 9px;
+    }
+
+    .wave-shape {
+        width: auto;
+        left: 0;
+        bottom: 0;
+    }
+
+    .wave-shape img {
+        min-height: 110px;
+    }
+
+
+
+    .animation-content .strawberry-size {
+        width: 80px;
+    }
+
+    .animation-content .strawberry-top {
+        left: -135%;
+        top: 4%;
+    }
+
+    .animation-content .strawberry-bottom {
+        top: 21%;
+        right: 0%;
+    }
+
+    .animation-content .packag img {
+        max-width: 90px;
+    }
+
+    .animation-content .packag {
+        right: 0;
+        top: -22px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #coming-soon {
+        height: auto !important;
+
+    }
+
+    .QRcode-vibe {
+        left: 0;
+        bottom: -62%;
+    }
+
+    .coming-soon-content .coming-soon-text h3 {
+        font-size: 65px;
+        line-height: 65px;
+    }
+
+    .coming-soon-content .coming-soon-text h4 {
+        font-size: 30px;
+    }
+
+    .coming-soon-content .coming-soon-text p {
+        font-size: 15px;
+    }
+
+    .email-phone-box {
+        padding-bottom: 0px
+    }
+
+    .email-phone-box .form-control {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .email-phone-box .btn {
+        height: 60px;
+        width: 190px;
+    }
+
+    .social-media a span {
+        font-size: 20px;
+    }
+
+    .social-media a i {
+        font-size: 20px;
+    }
+
+    .footer-text p {
+        font-size: 15px;
+    }
+
+    .wave-shape img {
+        min-height: 100px;
+    }
+
+    .strawberry-size {
+        width: 100px !important;
+    }
+
+    .strawberry-top {
+        top: -55%;
+        left: -25px;
+    }
+
+    .strawberry-bottom {
+        top: 25% !important;
+        right: -30% !important;
+    }
+
+    .packag img {
+        max-width: 100px !important;
+    }
+
+    .animation-content .packag {
+        right: -10%;
+        top: -35px;
+        bottom: 0;
+    }
+}
+
+/*Large devices (laptop, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #coming-soon {
+        height: auto !important;
+
+    }
+
+    .QRcode-vibe {
+        left: 0;
+        bottom: -44%;
+        transform: translateX(-0);
+    }
+
+    .coming-soon-content .coming-soon-text h3 {
+        font-size: 95px;
+        line-height: 95px;
+    }
+
+    .coming-soon-content .coming-soon-text h4 {
+        font-size: 35px;
+    }
+
+    .coming-soon-content .coming-soon-text p {
+        font-size: 18px;
+    }
+
+    .email-phone-box .form-control {
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .email-phone-box {
+        padding-bottom: 30px;
+    }
+
+    .email-phone-box .btn {
+        height: 50px;
+        width: 190px;
+    }
+
+    .footer-text p {
+        font-size: 18px;
+    }
+
+    .social-media a span {
+        font-size: 20px;
+    }
+
+    .social-media a i {
+        font-size: 20px;
+    }
+
+    .footer-text p {
+        font-size: 15px;
+    }
+
+    .wave-shape img {
+        min-height: 100px;
+    }
+
+    .strawberry-size {
+        width: 100px !important;
+    }
+
+    .animation-content .strawberry-size {
+        width: 135px;
+    }
+
+    .animation-content .strawberry-top {
+        top: -39%;
+        left: -25px;
+    }
+
+    .animation-content .strawberry-bottom {
+        top: 20%;
+        right: -17%;
+    }
+
+    .animation-content .packag img {
+        max-width: 130px;
+    }
+
+    .animation-content .packag {
+        right: -5%;
+        bottom: -12%;
+    }
+}
+
+/*Large devices (Desktop, 992px and up)*/
+@media (min-width: 1199.99px) and (max-width: 1399.99px) {
+    #coming-soon {
+        height: auto !important;
+    }
+
+    .coming-soon-content .coming-soon-text h3 {
+        font-size: 98px;
+        line-height: 98px;
+    }
+
+    .animation-content .strawberry-bottom {
+        top: 25%;
+        right: -22%;
+    }
+}
+
+/*Large devices ( Large Desktop, 992px and up)*/
+@media (max-width: 1400px) {}
