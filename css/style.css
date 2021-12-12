@@ -166,14 +166,14 @@ a:hover {
 
 .animation-content .strawberry-top {
     top: -20%;
-    animation: bounce 2.8s ease infinite;
+    animation: bounce 2.3s ease infinite;
 }
 
 .animation-content .strawberry-bottom {
     top: 17%;
     right: -15%;
     z-index: 0;
-    animation: bounce 2.7s ease infinite;
+    animation: bounce 2.2s ease infinite;
 }
 
 .animation-content .packag img {
@@ -184,7 +184,7 @@ a:hover {
     right: -5%;
     top: -65px;
     z-index: 1;
-    animation: bounce 2.6s ease infinite;
+    animation: bounce 2.5s ease infinite;
 }
 
 @keyframes bounce {
@@ -467,18 +467,18 @@ a:hover {
         min-height: 100px;
     }
 
-     .animation-content  .strawberry-size {
+    .animation-content .strawberry-size {
         width: 100px;
     }
 
-     .animation-content  .strawberry-top {
+    .animation-content .strawberry-top {
         top: -44%;
         left: -25px;
     }
 
-     .animation-content  .strawberry-bottom {
-        top: 25% ;
-        right: -30%;
+    .animation-content .strawberry-bottom {
+        top: 25%;
+        right: -20%;
     }
 
     .animation-content .packag img {
@@ -486,7 +486,7 @@ a:hover {
     }
 
     .animation-content .packag {
-        right: -10%;
+        right: -5%;
         top: -35px;
         bottom: 0;
     }
