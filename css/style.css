@@ -467,22 +467,22 @@ a:hover {
         min-height: 100px;
     }
 
-    .strawberry-size {
-        width: 100px !important;
+     .animation-content  .strawberry-size {
+        width: 100px;
     }
 
-    .strawberry-top {
+     .animation-content  .strawberry-top {
         top: -44%;
         left: -25px;
     }
 
-    .strawberry-bottom {
-        top: 25% !important;
-        right: -30% !important;
+     .animation-content  .strawberry-bottom {
+        top: 25% ;
+        right: -30%;
     }
 
-    .packag img {
-        max-width: 100px !important;
+    .animation-content .packag img {
+        max-width: 100px;
     }
 
     .animation-content .packag {
