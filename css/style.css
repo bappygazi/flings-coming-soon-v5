@@ -173,7 +173,7 @@ a:hover {
     top: 17%;
     right: -15%;
     z-index: 0;
-    animation: bounce 2.2s ease infinite;
+    animation: bounce 2.9s ease infinite;
 }
 
 .animation-content .packag img {
@@ -184,7 +184,7 @@ a:hover {
     right: -5%;
     top: -65px;
     z-index: 1;
-    animation: bounce 2.5s ease infinite;
+    animation: bounce 2.8s ease infinite;
 }
 
 @keyframes bounce {
