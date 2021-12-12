@@ -53,7 +53,7 @@ a:hover {
     left: 0;
     width: 100%;
     justify-content: center;
-    bottom: -20%;
+    bottom: -7%;
 }
 
 .QRcode-vibe .QRcode img {
@@ -142,6 +142,10 @@ a:hover {
 .social-media a span {
     font-size: 20px;
     font-family: Agrandir-Bold;
+}
+
+.bottom-social-media a {
+    color: #ff702a;
 }
 
 .footer-text p {
@@ -244,7 +248,7 @@ a:hover {
     .vibe-tap {
         right: 0px;
         width: 90px;
-        bottom: 15px;
+        bottom: 65px;
         font-size: 16px;
         line-height: 1;
         font-family: Quick-Marker;
@@ -268,10 +272,13 @@ a:hover {
 
     .wave-shape {
         width: auto;
-        left: -263%;
-        bottom: -60px;
+        left: -180px;
+        bottom: 0;
     }
 
+    .wave-shape img {
+        height: 70px;
+    }
 
     .animation-content .strawberry-size {
         width: 80px;
@@ -293,7 +300,7 @@ a:hover {
 
     .animation-content .packag {
         right: 24px;
-        top: -38px;
+        top: -16px;
     }
 }
 
@@ -347,7 +354,7 @@ a:hover {
     .vibe-tap {
         right: 0px;
         width: 90px;
-        bottom: 18px;
+        bottom: 60px;
         font-size: 16px;
         line-height: 1;
         font-family: Quick-Marker;
@@ -371,12 +378,12 @@ a:hover {
 
     .wave-shape {
         width: auto;
-        left: 0;
+        left: -180px;
         bottom: 0;
     }
 
     .wave-shape img {
-        min-height: 110px;
+        min-height: 70px;
     }
 
 
@@ -400,8 +407,8 @@ a:hover {
     }
 
     .animation-content .packag {
-        right: 0;
-        top: -22px;
+        right: -65px;
+        top: -30px;
     }
 }
 
@@ -494,17 +501,17 @@ a:hover {
 
     .QRcode-vibe {
         left: 0;
-        bottom: -44%;
+        bottom: -15%;
         transform: translateX(-0);
     }
 
     .coming-soon-content .coming-soon-text h3 {
-        font-size: 95px;
-        line-height: 95px;
+        font-size: 75px;
+        line-height: 75px;
     }
 
     .coming-soon-content .coming-soon-text h4 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .coming-soon-content .coming-soon-text p {
@@ -512,7 +519,7 @@ a:hover {
     }
 
     .email-phone-box .form-control {
-        height: 60px;
+        height: 50px;
         font-size: 18px;
     }
 
@@ -554,7 +561,7 @@ a:hover {
     }
 
     .animation-content .strawberry-top {
-        top: -39%;
+        top: -15%;
         left: -25px;
     }
 
@@ -570,6 +577,7 @@ a:hover {
     .animation-content .packag {
         right: -5%;
         bottom: -12%;
+        top: -40px;
     }
 }
 
